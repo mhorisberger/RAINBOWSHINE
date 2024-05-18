@@ -1,0 +1,149 @@
+@media (max-width:1024px){
+    .columna{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+    .swiffy-slider{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+    .slider-indicators{
+        width: 70vw;
+        margin-left: 0vw;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        }
+    .whatsapp{
+        bottom: 10vw;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+                
+}  
+}
+
+
+@media (max-width:768px){
+    header{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        div{
+        .logoppal{
+            display: none;
+        .logo{
+            display: block;
+            width: 110px;
+            margin-left: 15px;
+        label{
+            display: block;
+            position: relative;
+            right: 15px;
+        img{
+            width: 100px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    .minu{
+        position: absolute;
+        top:100px;
+        background-color:#104455;
+        color: #f7cf3e;
+        width: 100%;
+        visibility: hidden;
+        transition: visibility 1s, opacity 1s ease;
+    }
+    #btn_menu:checked ~ .minu{
+        visibility: visible;
+        opacity:1; 
+    } 
+    .minu ul{
+        flex-direction: column;
+}
+
+    .columna{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    .columna1{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 80vw;
+    }
+    .clearfix{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .col-md-3{
+        width: 70vw;
+    }
+    .swiffy-slider{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .slider-container{
+        width: 70vw;
+        margin-left: 0vw;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .slider-indicators{
+        width: 70vw;
+        margin-left: 0vw;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .whatsapp{
+        bottom: 10vw;
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+        
+
+    }
+    .prendasmain{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
+    }
+    .prendas1{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 50vw;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+    }
+    .prendas1 img{
+        width: 50vw;
+    }
+    .i1{
+        width: 50vw;
+        height: 50vw;
+            
+    }
+    .iframe{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        width: 200vw;
+        
+    }
+    
+}

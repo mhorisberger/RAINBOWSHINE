@@ -1,0 +1,38 @@
+.maincontacto{
+    .titlecontacto{
+        background-color: #419197;
+        color: #0A3442  ;
+        text-decoration: overline; 
+        font-size: 180%;
+        margin: 0%;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 10px;
+        width: 100%;
+    }
+    .maincontacto{
+        background-color: #78D6C6;
+    }
+    .contenidocontacto{
+        background-image: url(./../assets/img/fondoprodcutos.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        text-align: center;
+        color: antiquewhite;
+        padding-bottom: 10px;
+        padding-top: 20px;
+    
+        
+    }
+    .enviar:hover{
+        color: #4e23ad;
+        background-color: darkorange;
+        cursor: grab;
+        padding: 5px;
+    }
+    .cc{
+        padding: 10px;
+        text-align: left;
+    }
+    
+}

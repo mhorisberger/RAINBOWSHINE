@@ -1,0 +1,34 @@
+.salemain{
+        background-image: url(./../assets/img/corazon.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 10px;
+        justify-content: center;
+        object-fit: cover;
+        text-align: center; 
+    }
+    .titlesale{
+        color: #0A3442;
+        text-decoration: overline; 
+        font-size: 180%;
+        margin: 0%;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 10px;
+        width: 100%;
+    }
+    .sale1{
+        -webkit-box-shadow: 20px -8px 25px 5px rgba(102,214,222,1);
+        -moz-box-shadow: 20px -8px 25px 5px rgba(102,214,222,1);
+        box-shadow: 20px -8px 25px 5px rgba(102,214,222,1);
+        width: 300px;
+        border-radius: 70px;
+        
+    }
+    
+    .buzosale{
+        width: 100%;
+        height: 600px;
+        
+        
+    }

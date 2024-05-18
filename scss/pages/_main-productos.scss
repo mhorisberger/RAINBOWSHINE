@@ -1,0 +1,75 @@
+.prendasmain{
+    .prendasmain{
+        background-color: #78D6C6(233, 127, 183, 0.932);
+        
+    }
+    
+    .titleprendas{
+        color: #0A3442 ;
+        background-color: #419197;
+        text-decoration: overline; 
+        font-size: 180%;
+        margin: 0%;
+        text-align: center;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        padding: 10px;
+        width: 100%;
+    }
+    .prendas1{ 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr); 
+        grid-template-rows: repeat(3, 1fr);
+        grid-template-areas:
+        "i1 i3 i4"
+        "i1 i2 i5"
+        "i1 i6 i7"
+        ;
+        gap: 5px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        background-color: #419197;
+    
+    }
+    .i1{
+        grid-area: i1;
+        height: 600px;
+        object-fit: cover;
+        align-self: center;
+        justify-self: normal;
+    
+    }
+    .i2{
+        grid-area: i2;
+    }
+    .i3{
+        grid-area: i3;
+    }
+    .i4{
+        grid-area: i4;
+    }
+    .i5{
+        grid-area: i5;
+    }
+    .i6{
+        grid-area: i6;
+    }
+    .i7{
+        grid-area: i7;
+    }
+    .prendas1 img{
+        width: 300px;
+        border-radius: 83px 0px 83px 0px;
+        -moz-border-radius: 83px 0px 83px 0px;
+        -webkit-border-radius: 83px 0px 83px 0px;
+        border: 1px solid #4e23ad;
+        -webkit-box-shadow: 20px -8px 25px 5px rgba(102,214,222,1);
+        -moz-box-shadow: 20px -8px 25px 5px rgba(102,214,222,1);
+        box-shadow: 20px -8px 25px 5px rgba(102,214,222,1);
+        margin: 20px;
+        justify-content: center;
+        padding: 2px;
+        gap: 20px;
+    }
+    
+}
